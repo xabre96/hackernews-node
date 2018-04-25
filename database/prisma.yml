@@ -1,6 +1,7 @@
-service: hackernews-node
-stage: dev
+#service: hackernews-node
+#stage: dev
 datamodel: datamodel.graphql
 secret: mysecret123
 
-cluster: public-swampwitch-125/prisma-eu1
+#cluster: public-swampwitch-125/prisma-eu1
+endpoint: https://eu1.prisma.sh/public-swampwitch-125/hackernews-node/dev
